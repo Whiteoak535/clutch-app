@@ -1,38 +1,62 @@
-# Clutch 🏆
+# Clutch — Student Athlete Mental Performance Hub
 
-**Train your mind like you train your body.**
+*When it matters most, you deliver.*
 
-A student athlete development app focused on **Girl Lacrosse** 🥍 and **Swimming** 🏊‍♀️.
+A personal growth journal and mental training app for student athletes. Log insights, build resilience, train your mindset, and track your progress.
 
 ## Features
 
-- **Training Journal** — Log sessions with sport-specific skills, effort ratings, and reflections
-- **Skill Drills** — Curated drills with built-in timer for lacrosse and swimming
-- **Mental Game** — Sports psychology tips and pre-game breathing exercises
-- **Role Models** — Inspiration from athletes like Katie Ledecky, Taylor Cummings, and more
-- **Streak Tracking** — Stay consistent and watch your streak grow
+- **The Playbook** — Training journal with AI-powered performance briefs
+- **Mindset Training** — Sports psychology modules with reflection prompts
+- **Resilience Tracker** — Log setbacks and track recovery journeys
+- **Role Model Wall** — Curate inspiring figures with daily highlights
+- **Goals & Streaks** — Process vs outcome goal tracking with gamification
+- **Game Day Rituals** — Pre-game checklists and post-game reflections
 
-## Tech Stack
+## Quick Deploy to GitHub Pages
 
-- React 18 + Vite
-- Deployed on GitHub Pages via GitHub Actions
-- PWA-ready (add to home screen)
+### Step 1: Create the repo on GitHub
 
-## Live App
+Go to https://github.com/new and create a repo named `clutch-app` (public).
 
-👉 [https://whiteoak535.github.io/clutch-app/](https://whiteoak535.github.io/clutch-app/)
+### Step 2: Push this code
 
-## Development
+```bash
+cd clutch-app
+git init
+git add .
+git commit -m "Initial commit - Clutch app"
+git branch -M main
+git remote add origin https://github.com/Whiteoak535/clutch-app.git
+git push -u origin main
+```
+
+### Step 3: Enable GitHub Pages
+
+1. Go to your repo → **Settings** → **Pages**
+2. Under **Source**, select **GitHub Actions**
+3. The deploy workflow will run automatically on push
+
+### Step 4: Access your app
+
+Your app will be live at: **https://Whiteoak535.github.io/clutch-app/**
+
+## Access on iPhone (Add to Home Screen)
+
+1. Open **https://Whiteoak535.github.io/clutch-app/** in Safari on your iPhone
+2. Tap the **Share** button (square with arrow)
+3. Scroll down and tap **"Add to Home Screen"**
+4. Name it "Clutch" and tap **Add**
+
+It will appear as a native app on your home screen with full-screen mode!
+
+## Local Development
 
 ```bash
 npm install
 npm run dev
 ```
 
-## Deploy
+---
 
-Push to `main` branch → GitHub Actions auto-builds and deploys.
-
-## License
-
-MIT
+Built with React + Vite. Deployed on GitHub Pages.
